@@ -1,0 +1,36 @@
+ form{
+    display: flex;
+    flex-direction: column;
+} 
+label{
+    font-weight: bold;
+    margin: bottom 20px ;
+    padding: 10px;
+} 
+ input{
+    padding: 20px;
+    margin-bottom: 5px;
+    border: solid black;
+} 
+ button{
+    background-color: beige;
+    color: black;
+    padding: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 30px;
+} 
+ button:hover{
+    background-color: pink;
+    border: 0;
+    
+} 
+
+
+#textarea{
+   padding: 40px;
+   resize: unset;
+}
+
+
+ 
